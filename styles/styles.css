@@ -20,7 +20,6 @@ body {
   max-width: 1920px;
   height: 850px;
   background: rgba(229, 84, 115, 0.1);
-  border: 2px solid red;
 }
 
 .banner-container {
@@ -91,7 +90,6 @@ body {
 .feature-section-container {
   width: 594px;
   height: 132px;
-  border: 2px solid red;
   margin: 0 auto;
   margin-top: 178px;
 }
@@ -118,7 +116,6 @@ body {
 .flower-section-container {
   width: 1440px;
   height: 605px;
-  border: 2px solid rebeccapurple;
   margin: 0 auto;
   margin-top: 48px;
 }
@@ -135,7 +132,7 @@ body {
   border-radius: 8px;
 
   background: rgba(39, 39, 39, 0.05);
-  border: 2px solid rebeccapurple;
+
   margin: 0 auto;
   margin-top: 128px;
   display: flex;
@@ -171,7 +168,6 @@ body {
   height: 620px;
   border-radius: 8px;
   background: rgba(229, 84, 115, 0.05);
-  border: 2px solid seagreen;
 }
 
 .sale-container {
@@ -218,7 +214,6 @@ body {
   align-items: flex-start;
   padding: 20px 43px 20px 43px;
   border-radius: 8px;
-
   background: rgb(229, 84, 115);
   color: rgb(255, 255, 255);
   font-size: 20px;
