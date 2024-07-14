@@ -130,11 +130,10 @@ body {
   width: 1440px;
   height: 320px;
   border-radius: 8px;
-
   background: rgba(39, 39, 39, 0.05);
-
   margin: 0 auto;
   margin-top: 128px;
+  margin-bottom: 128px;
   display: flex;
   justify-content: center;
   align-items: center;
