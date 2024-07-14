@@ -240,5 +240,29 @@ body {
   height: 100%;
 }
 
+/* instagram-section-container */
+.instagram-section-container {
+width: 594px;
+height: 132px;
+margin: 0 auto;
+margin-top: 128px;
+}
+
+.instagram-section-container h4 {
+  color: rgb(39, 39, 39);
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 48px;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.instagram-section-container p {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+}
 /* Responsive Media Query start */
 /* small device screen size */
