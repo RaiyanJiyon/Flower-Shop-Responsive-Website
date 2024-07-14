@@ -242,10 +242,10 @@ body {
 
 /* instagram-section-container */
 .instagram-section-container {
-width: 594px;
-height: 132px;
-margin: 0 auto;
-margin-top: 128px;
+  width: 594px;
+  height: 132px;
+  margin: 0 auto;
+  margin-top: 128px;
 }
 
 .instagram-section-container h4 {
@@ -264,5 +264,22 @@ margin-top: 128px;
   line-height: 30px;
   text-align: center;
 }
+
+/* image container section */
+.image-container-section {
+  width: 1440px;
+  height: 400px;
+  border-radius: 2px;
+  margin: 0 auto;
+  margin-top: 48px;
+  display: flex;
+  gap: 24px;
+}
+
+.images {
+  width: 342px;
+  height: 396px;
+}
+
 /* Responsive Media Query start */
 /* small device screen size */
