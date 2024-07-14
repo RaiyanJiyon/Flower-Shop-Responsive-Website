@@ -369,5 +369,55 @@ body {
   text-align: center;
 }
 
+/* footer element starts */
+.footer-element {
+  width: 1922px;
+  height: 449px;
+  background: rgb(17, 16, 16);
+  margin-top: 128px;
+}
+
+.footer-content {
+  margin: 0 auto;
+  margin-right: 850px;
+  width: 625px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-element h2 {
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 58px;
+  letter-spacing: 0%;
+  text-align: left;
+  color: rgb(255, 255, 255);
+  margin-bottom: 24px;
+}
+
+.footer-element .flower-span {
+  color: rgb(229, 84, 115);
+}
+
+.footer-element h6 {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.footer-element p {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  text-align: center;
+}
+
 /* Responsive Media Query start */
 /* small device screen size */
