@@ -104,8 +104,7 @@ header {
   width: 362px;
   height: 101px;
   margin: 0 auto;
-  margin-top: 109px;
-  margin-bottom: 29px;
+  margin-top: 61px;
   border: 2px solid rebeccapurple;
 }
 
@@ -116,7 +115,7 @@ header {
   line-height: 48px;
   letter-spacing: 0%;
   text-align: center;
-  margin-bottom: 14px;
+  margin-bottom: 5px;
 }
 
 .feature__description {
@@ -134,10 +133,10 @@ header {
 /* flower section container start */
 
 .flower-section-container {
-  width: 1440px;
-  height: 605px;
+  width: 878px;
+  height: 466px;
   margin: 0 auto;
-  margin-top: 48px;
+  margin-top: 61px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -145,8 +144,8 @@ header {
 }
 
 .flower-img {
-  width: 464px;
-  height: 538px;
+  width: 283px;
+  height: 414px;
   border-radius: 300px 300px 0px 0px;
   background: rgba(167, 33, 98, 0.15);
   display: flex;
@@ -155,19 +154,20 @@ header {
 }
 
 .flower-img img {
-  width: 310px;
-  height: 428px;
+  width: 189px;
+  height: 329px;
+  margin-top: 85px;
 }
 
 .flower-content p {
   color: rgb(39, 39, 39);
-  font-size: 24px;
+  font-size: 0.91rem;
   font-weight: 700;
   line-height: 35px;
-  letter-spacing: 0%;
   text-align: center;
   text-decoration-line: underline;
-  margin-top: 24px;
+  margin-top: 15px;
+  cursor: pointer;
 }
 
 /* support section container */
