@@ -9,6 +9,8 @@
 
 body {
   font-family: "Inter", sans-serif;
+  margin: 0 auto;
+  border: 2px solid red;
 }
 
 .display-hide {
@@ -24,72 +26,76 @@ body {
 }
 
 /* header element styles start */
-.header-element {
-  max-width: 1920px;
-  height: 850px;
+header {
+  max-width: 1171 px;
+  height: 655px;
   background: rgba(229, 84, 115, 0.1);
 }
 
-.banner-container {
-  width: 90%;
-  height: 100%;
+.banner {
+  width: 80%;
+  height: auto;
+  height: auto;
   margin: 0 auto;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.banner-text-content {
-  width: 60%;
-  height: 100%;
+.banner__content {
+  width: 432px;
+  height: 390px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 30px;
+  margin-top: 120px;
 }
 
-.banner-text-content h1 {
-  width: 708px;
-  height: 288px;
+.banner__content-heading {
+  width: 432px;
+  height: 222px;
   color: rgb(39, 39, 39);
-  font-size: 80px;
+  font-size: 3rem;
   font-weight: 800;
-  line-height: 96px;
-  text-align: left;
+  line-height: 59px;
+  margin-bottom: -32px;
 }
 
-.banner-text-content p {
-  width: 634px;
-  height: 90px;
+.banner__content-description {
+  width: 387px;
+  height: 69px;
   color: rgba(39, 39, 39, 0.6);
-  font-size: 18px;
+  font-size: 0.7rem;
   font-weight: 400;
-  line-height: 30px;
-  text-align: left;
+  line-height: 20px;
+  margin-bottom: 20px;
 }
 
-.banner-text-content .shop-btn {
-  width: 177px;
-  height: 64px;
-  padding: 20px 43px 20px 43px;
+.shop-btn {
+  width: 108px;
+  height: 49px;
+  padding: 12px 26px;
   border-radius: 8px;
   background: rgb(229, 84, 115);
   color: rgb(255, 255, 255);
   font-family: Lato;
-  font-size: 20px;
+  font-size: 0.8rem;
   font-weight: 700;
-  line-height: 24px;
-  letter-spacing: 0%;
-  text-align: left;
+  line-height: 15px;
   border: none;
   cursor: pointer;
 }
 
-.banner-image-content {
-  flex-grow: 1;
-  height: 100%;
-  width: 635px;
-  display: flex;
-  justify-content: center;
+.banner__image {
+  width: 387px;
+  height: 616px;
+  background-image: url(../images/banner-image.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
+
+/* header element ends here */
 
 /* main element starts here */
 
