@@ -26,8 +26,9 @@ body {
 
 /* header element styles start */
 header {
-  max-width: 1171px;
+  width: 100%;
   height: 552px;
+  margin: 0 auto;
   background: rgba(229, 84, 115, 0.1);
 }
 
@@ -99,13 +100,15 @@ header {
 
 /* feature section start */
 .feature-section {
-  width: 362px;
+  width: 70%;
   height: 101px;
   margin: 0 auto;
   margin-top: 61px;
 }
 
 .feature__title {
+  width: 100%;
+  height: auto;
   color: rgb(39, 39, 39);
   font-size: 1.52rem;
   font-weight: 800;
@@ -116,7 +119,7 @@ header {
 }
 
 .feature__description {
-  width: 362px;
+  width: 100%;
   height: 46px;
   color: rgba(39, 39, 39, 0.6);
   font-size: 0.7rem;
@@ -124,20 +127,20 @@ header {
   line-height: 20px;
   text-align: center;
 }
-
 /* feature section end */
 
 /* flower section container start */
-
 .flower-section-container {
-  width: 878px;
+  width: 80%;
   height: 466px;
   margin: 0 auto;
   margin-top: 61px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 13px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.flower-content {
+  margin: 0 auto;
 }
 
 .flower-img {
@@ -166,10 +169,11 @@ header {
   margin-top: 15px;
   cursor: pointer;
 }
+/* flower section container end */
 
 /* support section container start */
 .support-section {
-  width: 878px;
+  width: 80%;
   height: 195px;
   border-radius: 8px;
   background: rgba(39, 39, 39, 0.05);
@@ -201,13 +205,11 @@ header {
   line-height: 35px;
   text-align: center;
 }
-
 /* support section container end */
 
 /* sale section container start */
-
 .sale-section {
-  width: 1172px;
+  width: 100%;
   height: 477px;
   border-radius: 8px;
   background: rgba(229, 84, 115, 0.05);
@@ -270,7 +272,7 @@ header {
 
 /* instagram-section start */
 .instagram-section {
-  width: 363px;
+  width: 70%;
   height: 102px;
   margin: 0 auto;
   margin-top: 61px;
@@ -296,7 +298,7 @@ header {
 
 /* image section start */
 .image-section {
-  width: 878px;
+  width: 80%;
   height: 246px;
   border-radius: 2px;
   margin: 0 auto;
@@ -315,12 +317,11 @@ header {
   width: 100%;
   height: auto;
 }
-
 /* image section end */
 
-/* latest-deal-section-container */
+/* latest-deal-section start */
 .latest-deal-section {
-  width: 878px;
+  width: 80%;
   height: 346px;
   border-radius: 8px;
   border: 2px solid whitesmoke;
@@ -402,10 +403,11 @@ header {
   text-align: center;
   cursor: pointer;
 }
+/* latest-deal-section start */
 
 /* footer element starts */
 .footer-element {
-  width: 1172px;
+  width: 100%;
   height: 376px;
   background: rgb(17, 16, 16);
   margin-top: 79px;
@@ -450,5 +452,4 @@ header {
   line-height: 19px;
   text-align: center;
 }
-
 /* footer element end */
