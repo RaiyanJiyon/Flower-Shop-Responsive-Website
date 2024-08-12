@@ -1,0 +1,56 @@
+/* header element styles start */
+header {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  background: rgba(229, 84, 115, 0.1);
+}
+
+.banner {
+  width: 80%;
+  height: 489px;
+  height: auto;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.banner__content {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+  margin-bottom: 120px;
+}
+
+.banner__content-heading {
+  width: 90%;
+  height: auto;
+  font-size: 2rem;
+  line-height: 50px;
+}
+
+.banner__content-description {
+  width: 90%;
+  height: auto;
+  font-size: 0.7rem;
+  line-height: 20px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.shop-btn {
+  height: 49px;
+  width: 40%;
+  font-size: 0.8rem;
+  line-height: 15px;
+}
+
+.banner__image {
+  width: 100%;
+  height: 316px;
+  margin-top: -70px;
+  margin-bottom: 50px;
+}
+/* header element ends here */
