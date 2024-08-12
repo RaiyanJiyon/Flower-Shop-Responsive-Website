@@ -238,7 +238,7 @@ header {
 /* image section start */
 .image-section {
   width: 80%;
-  height: 246px;
+  height: auto;
   margin: 0 auto;
   border-radius: 2px;
   margin: 0 auto;
@@ -258,3 +258,50 @@ header {
   height: auto;
 }
 /* image section end */
+
+
+
+
+
+
+
+
+
+
+/* footer element starts */
+.footer-element {
+  width: 100%;
+  height: auto;
+  background: rgb(17, 16, 16);
+  margin-top: 79px;
+}
+
+.footer-content {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.footer-element h2 {
+  width: 80%;
+  height: auto;
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.footer-element h6 {
+  width: 90%;
+  height: auto;
+  font-size: 0.7rem;
+  margin-bottom: 22px;
+}
+
+.footer-element p {
+  width: 90%;
+  height: auto;
+  font-size: 0.7rem;
+}
+/* footer element end */
