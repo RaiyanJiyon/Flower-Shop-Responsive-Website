@@ -104,3 +104,32 @@ header {
   margin-top: 15px;
 }
 /* flower section container end */
+
+/* support section container start */
+.support-section {
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+  margin-bottom: 61px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.support__card {
+  padding: 20px;
+}
+
+.support__card img {
+  max-width: 47px;
+  height: 63px;
+  margin-bottom: 10px;
+}
+
+.support__card-caption {
+  width: 90%;
+  height: auto;
+  font-size: 0.9rem;
+  line-height: 30px;
+}
+/* support section container end */
