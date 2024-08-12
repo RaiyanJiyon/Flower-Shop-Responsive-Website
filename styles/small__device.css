@@ -202,3 +202,59 @@ header {
   height: 100%;
 }
 /* sale section container end */
+
+/* instagram-section start */
+.instagram-section {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 61px;
+}
+
+.instagram-title {
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+  color: rgb(39, 39, 39);
+  font-size: 1.5rem;
+  font-weight: 800;
+  line-height: 38px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.instagram-description {
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 0.7rem;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+}
+/* instagram section end */
+
+/* image section start */
+.image-section {
+  width: 80%;
+  height: 246px;
+  margin: 0 auto;
+  border-radius: 2px;
+  margin: 0 auto;
+  margin-top: 28px;
+  gap: 12px;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+
+.images {
+  width: 100%;
+  height: auto;
+}
+
+.images img {
+  width: 100%;
+  height: auto;
+}
+/* image section end */
