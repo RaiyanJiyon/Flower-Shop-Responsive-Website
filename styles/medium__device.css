@@ -133,3 +133,68 @@ header {
   line-height: 30px;
 }
 /* support section container end */
+
+/* latest-deal-section start */
+.latest-deal-section {
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.latest-deal-text-content {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.latest-deal-text-content h3 {
+  width: 90%;
+  height: auto;
+  color: rgb(39, 39, 39);
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.latest-deal-text-content p {
+  width: 90%;
+  height: auto;
+  font-size: 0.7rem;
+  text-align: center;
+}
+
+.latest-deal-form-content {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.latest-deal-form-content input[type="email"] {
+  width: 100%;
+  height: 50px;
+  margin-right: 6px;
+  margin-bottom: 20px;
+  padding: 0;
+}
+
+.latest-deal-form-content input[type="email"]::placeholder {
+  font-size: 0.7rem;
+  text-align: center;
+}
+
+.latest-deal-form-content input[type="button"] {
+  width: 100%;
+  border-radius: 8px;
+  font-size: 0.7rem;
+  text-align: center;
+  cursor: pointer;
+}
+/* latest-deal-section end */
