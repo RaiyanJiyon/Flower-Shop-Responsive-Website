@@ -124,7 +124,7 @@ header {
 
 /* support section container start */
 .support-section {
-  width: 100%;
+  width: 90%;
   height: auto;
   margin: 0 auto;
   margin-bottom: 61px;
@@ -151,3 +151,54 @@ header {
   line-height: 30px;
 }
 /* support section container end */
+
+/* sale section container start */
+.sale-section {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.sale__content {
+  width: 100%;
+  height: auto;
+  margin-top: 30px;
+}
+
+.sale__content-title {
+  width: 90%;
+  height: auto;
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.sale__content-description {
+  width: 90%;
+  height: auto;
+  font-size: 0.7rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.sale__content-btn {
+  width: 40%;
+  height: 49px;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.sale__image {
+  width: 90%;
+  height: 346px;
+  margin-top: 40px;
+}
+
+.sale__image img {
+  width: 100%;
+  height: 100%;
+}
+/* sale section container end */
