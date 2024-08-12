@@ -54,3 +54,70 @@ header {
   margin-bottom: 50px;
 }
 /* header element ends here */
+
+/* main element starts here */
+
+/* feature section start */
+.feature-section {
+  width: 70%;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.feature__title {
+  width: 90%;
+  height: auto;
+  font-size: 1.5rem;
+  font-weight: 800;
+  line-height: 40px;
+  margin-bottom: 5px;
+}
+
+.feature__description {
+  width: 90%;
+  height: auto;
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 0.7rem;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+}
+/* feature section end */
+
+/* flower section container start */
+.flower-section-container {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 40px;
+}
+
+.flower-img {
+  width: 283px;
+  height: 414px;
+  width: 100%;
+  height: auto;
+
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(167, 33, 98, 0.15);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flower-img img {
+  width: 189px;
+  height: 329px;
+  margin-top: 85px;
+}
+
+.flower-content p {
+  width: 90%;
+  height: auto;
+  font-size: 0.9rem;
+}
+/* flower section container end */
